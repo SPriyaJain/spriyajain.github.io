@@ -236,6 +236,10 @@ header.masthead h2 {
   }
 }
 
+.img-fluid {
+  size: 255px 183px;
+}
+
 .portfolio-modal .portfolio-modal-dialog {
   padding: 3rem 1rem;
   min-height: calc(100vh - 2rem);
@@ -333,6 +337,16 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.alink {
+  color: white;
+  text-decoration: none;
+}
+
+.alink:focus, .alink:hover, .alink:active {
+  text-decoration: underline;
+  color: white;
 }
 
 a {
