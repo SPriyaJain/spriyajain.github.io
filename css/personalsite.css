@@ -205,7 +205,7 @@ header.masthead h2 {
   margin-bottom: -15px;
 }
 
-.portfolio .portfolio-item {
+.portfolio .portfolio-item, .portfolio .portfolio-title {
   position: relative;
   display: block;
   max-width: 25rem;
@@ -227,11 +227,30 @@ header.masthead h2 {
   font-size: 1.5rem;
 }
 
+.portfolio-section {
+  padding-bottom: 24px;
+}
+
+.portfolio-title {
+  background-color: #1a252f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 30px);
+}
+
+.portfolio-font {
+  font-size: 2.25vw;
+  color: white;
+  text-align: center;
+}
+
 @media (min-width: 576px) {
   .portfolio {
     margin-bottom: -30px;
   }
-  .portfolio .portfolio-item {
+  .portfolio .portfolio-item, .portfolio .portfolio-title {
     margin-bottom: 30px;
   }
 }
