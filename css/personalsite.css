@@ -190,7 +190,7 @@ header.masthead h2 {
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
+    padding-bottom: 7rem;
   }
   header.masthead h1 {
     font-size: 4.75em;
@@ -414,4 +414,8 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+.row {
+  padding-top: 24px;
 }
